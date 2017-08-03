@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KSR-vm-dk9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ij1-nB-BWE">
+            <objects>
+                <viewController id="KSR-vm-dk9" customClass="ViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="91I-gI-KU8"/>
+                        <viewControllerLayoutGuide type="bottom" id="JW7-H6-0Wu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sN0-CM-SdM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XaK-bl-AFv">
+                                <rect key="frame" x="37.5" y="70" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="5pK-Pj-Ite"/>
+                                    <constraint firstAttribute="width" constant="300" id="7qE-sA-MWD"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6b-iN-dbz">
+                                <rect key="frame" x="121.5" y="573" width="132" height="44"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.1843137255" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="y26-39-9Uc"/>
+                                    <constraint firstAttribute="width" constant="132" id="ykj-7p-89N"/>
+                                </constraints>
+                                <state key="normal" title="SHOW">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showButtonPressed:" destination="KSR-vm-dk9" eventType="touchUpInside" id="xlh-b5-TFZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYF-xD-mBW">
+                                <rect key="frame" x="16" y="378" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10980392160000001" green="0.090196078430000007" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XaK-bl-AFv" firstAttribute="centerX" secondItem="sN0-CM-SdM" secondAttribute="centerX" id="CE6-1i-KjF"/>
+                            <constraint firstItem="XaK-bl-AFv" firstAttribute="top" secondItem="91I-gI-KU8" secondAttribute="bottom" constant="50" id="Jqu-dU-Is2"/>
+                            <constraint firstItem="TYF-xD-mBW" firstAttribute="top" secondItem="XaK-bl-AFv" secondAttribute="bottom" constant="8" id="rtL-tv-Z9t"/>
+                            <constraint firstItem="y6b-iN-dbz" firstAttribute="centerX" secondItem="sN0-CM-SdM" secondAttribute="centerX" id="s2G-hZ-8su"/>
+                            <constraint firstItem="JW7-H6-0Wu" firstAttribute="top" secondItem="y6b-iN-dbz" secondAttribute="bottom" constant="50" id="trc-Ma-Qne"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TYF-xD-mBW" secondAttribute="trailing" id="uC5-WZ-Z5i"/>
+                            <constraint firstItem="TYF-xD-mBW" firstAttribute="leading" secondItem="sN0-CM-SdM" secondAttribute="leadingMargin" id="yKj-5t-Bxg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fileUrlLabel" destination="TYF-xD-mBW" id="Vur-em-a2W"/>
+                        <outlet property="imageView" destination="XaK-bl-AFv" id="33k-rt-CfU"/>
+                        <outlet property="showButton" destination="y6b-iN-dbz" id="ttA-JE-6EZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NFF-4y-pTV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="387"/>
+        </scene>
+    </scenes>
+</document>
