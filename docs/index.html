@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Peking  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="Peking  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">Peking Docs</a> (1% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">Peking Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Peking  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/PekingAppearance.html">PekingAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PekingController.html">PekingController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/PekingImage.html">PekingImage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/PekingControllerMode.html">PekingControllerMode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/Array.html">Array</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/PKAlbumViewDelegate.html">PKAlbumViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/PekingDelegate.html">PekingDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/PekingImageMetadata.html">PekingImageMetadata</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <p align="center">
+  <img src="https://i.loli.net/2017/08/03/59831a2e826d0.png" alt="Peking">
+  <br/><a href="https://cocoapods.org/pods/Peking">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen.svg">
+  <img alt="Author" src="https://img.shields.io/badge/author-Meniny-blue.svg">
+  <img alt="Build Passing" src="https://img.shields.io/badge/build-passing-brightgreen.svg">
+  <img alt="Swift" src="https://img.shields.io/badge/swift-3.0%2B-orange.svg">
+  <br/>
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-iOS-lightgrey.svg">
+  <img alt="MIT" src="https://img.shields.io/badge/license-MIT-blue.svg">
+  <br/>
+  <img alt="Cocoapods" src="https://img.shields.io/badge/cocoapods-compatible-brightgreen.svg">
+  <img alt="Carthage" src="https://img.shields.io/badge/carthage-working%20on-red.svg">
+  <img alt="SPM" src="https://img.shields.io/badge/swift%20package%20manager-working%20on-red.svg">
+  </a>
+</p>
+<h2 id='what-39-s-this' class='heading'>What&rsquo;s this?</h2>
+
+<p><code>Peking</code> is a tiny image picker library.</p>
+<h2 id='preview' class='heading'>Preview</h2>
+
+<p><img src="https://i.loli.net/2017/08/04/59834b3c5d654.jpg" alt="59834b3c5d654.jpg"></p>
+
+<p><img src="https://i.loli.net/2017/08/04/59834b4a7058a.jpg" alt="59834b4a7058a.jpg"></p>
+
+<p><img src="https://i.loli.net/2017/08/04/59834b5031654.jpg" alt="59834b5031654.jpg"></p>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<ul>
+<li>iOS 8.0+</li>
+<li>Xcode 8 with Swift 3</li>
+</ul>
+<h2 id='installation' class='heading'>Installation</h2>
+<h4 id='cocoapods' class='heading'>CocoaPods</h4>
+<pre class="highlight ruby"><code><span class="n">use_frameworks!</span>
+<span class="n">pod</span> <span class="s1">'Peking'</span>
+</code></pre>
+<h2 id='contribution' class='heading'>Contribution</h2>
+
+<p>You are welcome to fork and submit pull requests.</p>
+<h2 id='license' class='heading'>License</h2>
+
+<p><code>Peking</code> is open-sourced software, licensed under the <code>MIT</code> license.</p>
+<h2 id='usage' class='heading'>Usage</h2>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Peking</span>
+
+<span class="kd">class</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="kt">PekingDelegate</span> <span class="p">{</span>
+
+    <span class="c1">// ...</span>
+
+    <span class="kd">func</span> <span class="nf">picking</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">peking</span> <span class="o">=</span> <span class="kt">PekingController</span><span class="p">(</span><span class="nv">mode</span><span class="p">:</span> <span class="o">.</span><span class="n">library</span><span class="p">,</span> <span class="nv">multipleSelection</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">delegate</span><span class="p">:</span> <span class="k">self</span><span class="p">)</span>
+        <span class="k">self</span><span class="o">.</span><span class="nf">present</span><span class="p">(</span><span class="n">peking</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="c1">// MARK: PekingDelegate Protocol</span>
+    <span class="kd">func</span> <span class="nf">peking</span><span class="p">(</span><span class="n">_</span> <span class="nv">peking</span><span class="p">:</span> <span class="kt">PekingController</span><span class="p">,</span> <span class="n">didSelectImages</span> <span class="nv">images</span><span class="p">:</span> <span class="p">[</span><span class="kt">PekingImage</span><span class="p">])</span> <span class="p">{</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Number of selection images: </span><span class="se">\(</span><span class="n">images</span><span class="o">.</span><span class="n">count</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+        <span class="n">peking</span><span class="o">.</span><span class="nf">dismiss</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">peking</span><span class="p">(</span><span class="n">_</span> <span class="nv">peking</span><span class="p">:</span> <span class="kt">PekingController</span><span class="p">,</span> <span class="n">didCaptureVideo</span> <span class="nv">videoURL</span><span class="p">:</span> <span class="kt">URL</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"video completed and output to file: </span><span class="se">\(</span><span class="n">videoURL</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+        <span class="n">peking</span><span class="o">.</span><span class="nf">dismiss</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">peking</span><span class="p">(</span><span class="n">_</span> <span class="nv">peking</span><span class="p">:</span> <span class="kt">PekingController</span><span class="p">,</span> <span class="n">didCapturePhoto</span> <span class="nv">photo</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">imageView</span><span class="o">.</span><span class="n">image</span> <span class="o">=</span> <span class="n">photo</span>
+        <span class="n">peking</span><span class="o">.</span><span class="nf">dismiss</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">pekingCameraRollUnauthorized</span><span class="p">(</span><span class="n">_</span> <span class="nv">peking</span><span class="p">:</span> <span class="kt">PekingController</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">peking</span><span class="o">.</span><span class="nf">dismiss</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Camera roll unauthorized"</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">pekingDidDismiss</span><span class="p">(</span><span class="n">_</span> <span class="nv">peking</span><span class="p">:</span> <span class="kt">PekingController</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Called when the PekingController dismissed"</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="kd">func</span> <span class="nf">pekingWillDismiss</span><span class="p">(</span><span class="n">_</span> <span class="nv">peking</span><span class="p">:</span> <span class="kt">PekingController</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Called when the close button is pressed"</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/Meniny/Peking" target="_blank" rel="external">Elias Abel</a>. All rights reserved. (Last updated: 2017-08-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

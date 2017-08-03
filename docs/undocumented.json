@@ -1,0 +1,523 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PKAlbumView.swift",
+      "line": 12,
+      "symbol": "PKAlbumViewDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PKAlbumView.swift",
+      "line": 15,
+      "symbol": "PKAlbumViewDelegate.updateTitle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PKAlbumView.swift",
+      "line": 16,
+      "symbol": "PKAlbumViewDelegate.albumViewCameraRollUnauthorized()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PKAlbumView.swift",
+      "line": 17,
+      "symbol": "PKAlbumViewDelegate.albumViewCameraRollAuthorized()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": null,
+      "symbol": "PekingController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": null,
+      "symbol": "PekingDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 12,
+      "symbol": "PekingImage",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 13,
+      "symbol": "PekingImage.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 14,
+      "symbol": "PekingImage.metadata",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 16,
+      "symbol": "PekingImage.init(_:metadata:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 23,
+      "symbol": "Array.images",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 32,
+      "symbol": "PekingDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 33,
+      "symbol": "PekingDelegate.peking(_:didSelectImages:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 34,
+      "symbol": "PekingDelegate.peking(_:didCaptureVideo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 35,
+      "symbol": "PekingDelegate.peking(_:didCapturePhoto:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 36,
+      "symbol": "PekingDelegate.pekingCameraRollUnauthorized(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 39,
+      "symbol": "PekingDelegate.pekingDidDismiss(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 40,
+      "symbol": "PekingDelegate.pekingWillDismiss(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 44,
+      "symbol": "PekingDelegate.peking(_:didCaptureVideo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 45,
+      "symbol": "PekingDelegate.peking(_:didCapturePhoto:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 46,
+      "symbol": "PekingDelegate.pekingDidDismiss(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 47,
+      "symbol": "PekingDelegate.pekingWillDismiss(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 51,
+      "symbol": "PekingControllerMode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 52,
+      "symbol": "PekingControllerMode.camera",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 53,
+      "symbol": "PekingControllerMode.library",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 54,
+      "symbol": "PekingControllerMode.video",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 57,
+      "symbol": "PekingImageMetadata",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 58,
+      "symbol": "PekingImageMetadata.mediaType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 59,
+      "symbol": "PekingImageMetadata.pixelWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 60,
+      "symbol": "PekingImageMetadata.pixelHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 61,
+      "symbol": "PekingImageMetadata.creationDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 62,
+      "symbol": "PekingImageMetadata.modificationDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 63,
+      "symbol": "PekingImageMetadata.location",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 64,
+      "symbol": "PekingImageMetadata.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 65,
+      "symbol": "PekingImageMetadata.isFavourite",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 66,
+      "symbol": "PekingImageMetadata.isHidden",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 69,
+      "symbol": "PekingAppearance",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 70,
+      "symbol": "PekingAppearance.baseTintColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 71,
+      "symbol": "PekingAppearance.tintColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 72,
+      "symbol": "PekingAppearance.backgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 74,
+      "symbol": "PekingAppearance.albumImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 75,
+      "symbol": "PekingAppearance.cameraImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 76,
+      "symbol": "PekingAppearance.videoImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 77,
+      "symbol": "PekingAppearance.checkImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 78,
+      "symbol": "PekingAppearance.closeImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 79,
+      "symbol": "PekingAppearance.flashOnImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 80,
+      "symbol": "PekingAppearance.flashOffImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 81,
+      "symbol": "PekingAppearance.flipImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 82,
+      "symbol": "PekingAppearance.shotImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 84,
+      "symbol": "PekingAppearance.videoStartImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 85,
+      "symbol": "PekingAppearance.videoStopImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 87,
+      "symbol": "PekingAppearance.cameraRollTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 88,
+      "symbol": "PekingAppearance.cameraTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 89,
+      "symbol": "PekingAppearance.videoTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 90,
+      "symbol": "PekingAppearance.titleFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 92,
+      "symbol": "PekingAppearance.tintIcons",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 94,
+      "symbol": "PekingAppearance.appearance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 97,
+      "symbol": "PekingController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 99,
+      "symbol": "PekingController.isVideoModeEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 100,
+      "symbol": "PekingController.allowMultipleSelection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 103,
+      "symbol": "PekingController.defaultMode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 125,
+      "symbol": "PekingController.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 127,
+      "symbol": "PekingController.init(mode:multipleSelection:videoDisabled:delegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 139,
+      "symbol": "PekingController.init(nibName:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 143,
+      "symbol": "PekingController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 147,
+      "symbol": "PekingController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 153,
+      "symbol": "PekingController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 263,
+      "symbol": "PekingController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 267,
+      "symbol": "PekingController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 288,
+      "symbol": "PekingController.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 294,
+      "symbol": "PekingController.prefersStatusBarHidden",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 364,
+      "symbol": "PekingController.albumViewCameraRollAuthorized()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 371,
+      "symbol": "PekingController.updateTitle()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Projects/Github/Peking/Peking/PekingController.swift",
+      "line": 387,
+      "symbol": "PekingController.albumViewCameraRollUnauthorized()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Meniny/Projects/Github/Peking"
+}

@@ -20,6 +20,14 @@
 
 `Peking` is a tiny image picker library.
 
+## Preview
+
+![59834b3c5d654.jpg](https://i.loli.net/2017/08/04/59834b3c5d654.jpg)
+
+![59834b4a7058a.jpg](https://i.loli.net/2017/08/04/59834b4a7058a.jpg)
+
+![59834b5031654.jpg](https://i.loli.net/2017/08/04/59834b5031654.jpg)
+
 ## Requirements
 
 * iOS 8.0+
@@ -30,6 +38,7 @@
 #### CocoaPods
 
 ```ruby
+use_frameworks!
 pod 'Peking'
 ```
 
