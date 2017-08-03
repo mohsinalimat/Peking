@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = "1.0.0"
   s.summary          = "An image picker for iOS"
   s.homepage         = "https://github.com/Meniny/Peking"
-  s.license          = 'MIT'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Elias Abel" => "Meniny@qq.com" }
   s.source           = { :git => "https://github.com/Meniny/Peking.git", :tag => s.version.to_s }
 
