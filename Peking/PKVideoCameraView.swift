@@ -163,6 +163,7 @@ final class PKVideoCameraView: UIView {
     
     deinit {
         NotificationCenter.default.removeObserver(self)
+        self.removeObserver(self, forKeyPath: "frame")
     }
     
     func startCamera() {

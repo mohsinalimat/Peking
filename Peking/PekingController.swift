@@ -347,7 +347,9 @@ public class PekingAppearance {
             requestImage(with: asset) { asset, result in
                 images.append(PekingImage(result))
                 if asset == self.albumView.selectedAssets.last {
-                    self.delegate?.peking(self, didSelectImages: images)
+                    DispatchQueue.main.async {
+                        self.delegate?.peking(self, didSelectImages: images)
+                    }
                 }
             }
         }
@@ -358,7 +360,9 @@ extension PekingController: PKAlbumViewDelegate, PKCameraViewDelegate, PKVideoCa
     
     // MARK: PKCameraViewDelegate
     func cameraShotFinished(_ image: UIImage) {
-        delegate?.peking(self, didCapturePhoto: image)
+        DispatchQueue.main.async {
+            self.delegate?.peking(self, didCapturePhoto: image)
+        }
     }
     
     public func albumViewCameraRollAuthorized() {
@@ -389,7 +393,9 @@ extension PekingController: PKAlbumViewDelegate, PKCameraViewDelegate, PKVideoCa
     }
     
     func videoFinished(withFileURL fileURL: URL) {
-        delegate?.peking(self, didCaptureVideo: fileURL)
+        DispatchQueue.main.async {
+            self.delegate?.peking(self, didCaptureVideo: fileURL)
+        }
     }
     
 }

@@ -161,6 +161,7 @@ final class PKCameraView: UIView, UIGestureRecognizerDelegate {
     
     deinit {
         NotificationCenter.default.removeObserver(self)
+        self.removeObserver(self, forKeyPath: "frame")
     }
     
     func startCamera() {
