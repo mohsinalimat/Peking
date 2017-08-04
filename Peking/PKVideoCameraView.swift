@@ -134,7 +134,10 @@ final class PKVideoCameraView: UIView {
         NotificationCenter.default.addObserver(self, selector: #selector(PKVideoCameraView.didEnterBackgroundNotification(_:)), name: NSNotification.Name.UIApplicationDidEnterBackground, object: nil)
         
         self.addObserver(self, forKeyPath: "frame", options: .new, context: nil)
+        registeredFrameObserve = true
     }
+    
+    var registeredFrameObserve = false
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
@@ -163,7 +166,10 @@ final class PKVideoCameraView: UIView {
     
     deinit {
         NotificationCenter.default.removeObserver(self)
-        self.removeObserver(self, forKeyPath: "frame")
+        if registeredFrameObserve {
+            self.removeObserver(self, forKeyPath: "frame")
+            registeredFrameObserve = false
+        }
     }
     
     func startCamera() {
