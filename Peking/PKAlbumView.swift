@@ -12,6 +12,8 @@ import Photos
 @objc public protocol PKAlbumViewDelegate: class {
     // Returns height ratio of crop image. e.g) 4:3 -> 7.5
 //    func getCropHeightRatio() -> CGFloat
+    var allowMultipleSelection: Bool { get set }
+    
     func updateTitle()
     func albumViewCameraRollUnauthorized()
     func albumViewCameraRollAuthorized()
@@ -71,6 +73,7 @@ final class PKAlbumView: UIView, UICollectionViewDataSource, UICollectionViewDel
         if images.count > 0 {
             
             changeImage(images[0])
+            self.delegate?.updateTitle()
             collectionView.reloadData()
             collectionView.selectItem(at: IndexPath(row: 0, section: 0), animated: false, scrollPosition: UICollectionViewScrollPosition())
         }
@@ -248,7 +251,6 @@ internal extension IndexSet {
 private extension PKAlbumView {
     
     func changeImage(_ asset: PHAsset) {
-        
         self.phAsset = asset
         
         DispatchQueue.global(qos: .default).async(execute: {
@@ -257,12 +259,19 @@ private extension PKAlbumView {
             options.isNetworkAccessAllowed = true
             
             self.imageManager?.requestImage(for: asset, targetSize: CGSize(width: asset.pixelWidth, height: asset.pixelHeight), contentMode: .aspectFill, options: options) { result, info in
+                
                 DispatchQueue.main.async(execute: {
-                    if let result = result,
-                        !self.selectedAssets.contains(asset) {
-                        
-                        self.selectedAssets.append(asset)
-                        self.selectedImages.append(result)
+                    if let result = result {
+                        if let _  = self.delegate {
+                            if !self.delegate!.allowMultipleSelection {
+                                self.selectedAssets.removeAll()
+                                self.selectedImages.removeAll()
+                            }
+                        }
+                        if !self.selectedAssets.contains(asset) {
+                            self.selectedAssets.append(asset)
+                            self.selectedImages.append(result)
+                        }
                     }
                 })
             }

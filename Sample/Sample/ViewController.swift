@@ -23,8 +23,7 @@ class ViewController: UIViewController, PekingDelegate {
     }
     
     @IBAction func showButtonPressed(_ sender: AnyObject) {
-        
-        let peking = PekingController(mode: .video, multipleSelection: true, delegate: self)
+        let peking = PekingController(mode: .video, multipleSelection: false, delegate: self)
         self.present(peking, animated: true, completion: nil)
     }
     
